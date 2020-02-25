@@ -18,10 +18,6 @@
   }
 </style>
 
-<svelte:head>
-  <title>Word counter</title>
-</svelte:head>
-
 <div class="container mb-5">
   <div class="row">
     <div class="col py-5">
