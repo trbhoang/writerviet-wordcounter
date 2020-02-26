@@ -82,8 +82,3 @@
     </div>
   </div>
 </div>
-
-<footer class="footer container position-relative pt-5">
-  <hr />
-  <p>&copy; 2020 WriterViet</p>
-</footer>
