@@ -37,14 +37,14 @@
         id="text"
         use:textarea_resize
         bind:value={text}
-        placeholder="Nội dung..." />
+        placeholder="Nội dung cần phân tích..." />
     </div>
     <div class="col-md-4">
       <div class="row p-1 mb-1">
         <div class="h6 col-12 text-primary">Thống kê</div>
       </div>
       <div class="row p-2 mb-1">
-        <div class="col-8 text-dark">Paragraphs</div>
+        <div class="col-8 text-dark font-medium">Paragraphs</div>
         <div class="col-4">
           <span class="badge badge-pill badge-secondary">
             {counter.paragraphs}
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="row p-2 mb-1">
-        <div class="col-8 text-dark">Sentences</div>
+        <div class="col-8 text-dark font-medium">Sentences</div>
         <div class="col-4">
           <span class="badge badge-pill badge-secondary">
             {counter.sentences}
@@ -60,13 +60,13 @@
         </div>
       </div>
       <div class="row p-2 mb-1">
-        <div class="col-8 text-dark">Words</div>
+        <div class="col-8 text-dark font-medium">Words</div>
         <div class="col-4">
           <span class="badge badge-pill badge-secondary">{counter.words}</span>
         </div>
       </div>
       <div class="row p-2 mb-1">
-        <div class="col-8 text-dark">Characters</div>
+        <div class="col-8 text-dark font-medium">Characters</div>
         <div class="col-4">
           <span class="badge badge-pill badge-secondary">
             {counter.characters}
@@ -74,7 +74,10 @@
         </div>
       </div>
       <div class="row p-2 mb-1">
-        <div class="col-8 text-dark">Characters (with spaces)</div>
+        <div class="col-8 text-dark font-medium">
+          Characters
+          <span class="text-gray-500 text-sm">(with spaces)</span>
+        </div>
         <div class="col-4">
           <span class="badge badge-pill badge-secondary">{counter.all}</span>
         </div>
