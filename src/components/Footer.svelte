@@ -6,7 +6,7 @@
       <a href="/">Cộng đồng writer Việt</a>
     </li>
     <li>
-      <a href="/wordcounter">Word Counter</a>
+      <a href="/demchu">Đếm chữ</a>
     </li>
   </ul>
 </footer>
